@@ -74,5 +74,5 @@ faceFarm - Email Detector for Facebook
     faceFarm = faceFarm()
     while True:
         fake = Faker()
-        emailAddr = fake.email().split("@")[0] + "@byom.de"
+        emailAddr = fake.email().split("@")[0] + "@yopmail.com"
         faceFarm.identifyEmail(emailAddr)
